@@ -29,7 +29,7 @@ const features = [
 ];
 const FeatureList = () => {
   return (
-    <ul>
+    <ul className="sm:flex">
       {features.map((feature) => (
         <Feature
           key={feature.id}

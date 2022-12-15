@@ -2,9 +2,11 @@ import React from "react";
 
 const ContactLinks = () => {
   return (
-    <>
-      <p>Contact</p>
-      <ul>
+    <div>
+      <p className="text-brandNeutral-200 uppercase font-medium pt-10 pb-4">
+        Contact
+      </p>
+      <ul className="flex gap-2 flex-col uppercase font-medium text-sm text-brandNeutral-300">
         <li>
           <a href="#sales">Sales</a>
         </li>
@@ -15,7 +17,7 @@ const ContactLinks = () => {
           <a href="#live-chat">Live Chat</a>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

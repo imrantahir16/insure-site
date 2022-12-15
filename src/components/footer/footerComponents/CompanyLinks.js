@@ -2,9 +2,11 @@ import React from "react";
 
 const CompanyLinks = () => {
   return (
-    <>
-      <p>Our Company</p>
-      <ul>
+    <div>
+      <p className="text-brandNeutral-200 uppercase font-medium pt-10 pb-4">
+        Our Company
+      </p>
+      <ul className="flex gap-2 flex-col uppercase font-medium text-sm text-brandNeutral-300">
         <li>
           <a href="#how-we-work">How we work</a>
         </li>
@@ -18,7 +20,7 @@ const CompanyLinks = () => {
           <a href="#reviews">Reviews</a>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 
