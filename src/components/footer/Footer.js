@@ -14,7 +14,7 @@ const Footer = () => {
           <img src={logo} alt="Insure logo" />
           <SocialLinks />
         </div>
-        <div className="py-16 sm:flex justify-start">
+        <div className="py-16 sm:flex justify-start sm:gap-28">
           <CompanyLinks />
           <HelpingLinks />
           <ContactLinks />

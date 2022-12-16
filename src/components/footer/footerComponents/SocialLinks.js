@@ -1,32 +1,33 @@
-import React from "react";
-import facebook from "./../../../assets/icon-facebook.svg";
-import twitter from "./../../../assets/icon-twitter.svg";
-import pinterest from "./../../../assets/icon-pinterest.svg";
-import instagram from "./../../../assets/icon-instagram.svg";
 import Socials from "./Socials";
+import {
+  faFacebookSquare,
+  faInstagramSquare,
+  faPinterest,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const socials = [
   {
     id: "s001",
-    icon: facebook,
+    icon: faFacebookSquare,
     alt: "facebook icon",
     link: "www.facebook.com",
   },
   {
     id: "s002",
-    icon: twitter,
+    icon: faTwitter,
     alt: "twitter icon",
     link: "www.twitter.com",
   },
   {
     id: "s003",
-    icon: pinterest,
+    icon: faPinterest,
     alt: "pinterest icon",
     link: "www.pinterest.com",
   },
   {
     id: "s004",
-    icon: instagram,
+    icon: faInstagramSquare,
     alt: "instagram icon",
     link: "www.instagram.com",
   },

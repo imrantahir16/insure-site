@@ -4,6 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        "intro-right-pattern-desk":
+          "url('/src/assets/bg-pattern-intro-right-desktop.svg",
+        "intro-left-pattern-desk":
+          "url('/src/assets/bg-pattern-intro-left-desktop.svg",
         "footer-pattern-mob": "url('/src/assets/bg-pattern-footer-mobile.svg')",
         "footer-pattern-desk":
           "url('/src/assets/bg-pattern-footer-desktop.svg')",

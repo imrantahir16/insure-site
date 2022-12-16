@@ -2,7 +2,7 @@ import React from "react";
 
 const CompanyLinks = () => {
   return (
-    <div>
+    <div className="sm:text-left">
       <p className="text-brandNeutral-200 uppercase font-medium pt-10 pb-4">
         Our Company
       </p>
